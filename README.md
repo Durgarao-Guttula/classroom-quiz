@@ -41,4 +41,4 @@ Keep `questions.xlsx` and the `images` folder in the same folder as the exe.
 Windows may say *"Windows protected your PC"*: click **More info → Run anyway**. Allow the firewall
 prompt for **Private networks**, or phones cannot connect. To check your copy is genuine, run
 `certutil -hashfile ClassroomQuiz.exe SHA256` in Command Prompt; it should print
-`10a4fdf00b85b4df8b819355e9138d53db4ec861c97ebb0c54fd2681280690d4`.
+`98ba6f1d5306ba458a62635bbe23db2301da5c8342e96a7d732f6077c9f2c035`.
