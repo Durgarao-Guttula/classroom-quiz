@@ -1,0 +1,108 @@
+CLASSROOM QUIZ — how to use
+===========================
+
+Students answer one question at a time on their phones and see instantly
+whether they were right, with an explanation. No internet, no accounts,
+no app to install on the phones.
+
+
+1. FIRST TIME
+-------------
+- Unzip ClassroomQuiz.zip somewhere you keep files (e.g. Documents). You get
+  a ClassroomQuiz folder with the app, questions.xlsx and an images folder.
+  Run it from there, not from inside the zip.
+- Double-click ClassroomQuiz.exe. A black window opens and your browser
+  opens the start page.
+- The very first launch can take up to a minute while antivirus checks it.
+- "Windows protected your PC"?  Click  More info  ->  Run anyway.
+- Windows Firewall asks for access?  Tick  Private networks  and click Allow.
+  (Without this, students' phones cannot connect.)
+- questions.xlsx already holds sample quizzes showing every question type,
+  including picture questions. Try them, then replace them with your own.
+  (If questions.xlsx is ever missing, the app makes a fresh starter file.)
+
+Keep the black window open during class. Closing it stops the quiz.
+
+
+2. YOUR QUESTIONS (Excel)
+-------------------------
+Each sheet (tab) in the workbook is one quiz; the sheet name is its title.
+Row 1 holds the headings, then one question per row:
+
+  Type | Question | Image | A | B | C | D | E | F | Answer | Explanation
+
+- Type: MCQ, True/False, Short answer or Word cloud.
+- Image (optional, any type): the file name of a picture, e.g.
+  circuit.png. Put the picture in the "images" folder next to the app.
+  PNG, JPG, GIF, WEBP or SVG. It appears on the projector, on every phone
+  (students can tap it to enlarge) and on your teacher page. A web address
+  (https://...) works too, but then the phones need internet.
+  Example: part of the periodic table with cells hidden behind A, B, C, D
+  and the question "Which label hides a noble gas?" with options A-D, or a
+  circuit diagram with "What is the total resistance?" — see the
+  "Picture questions" sheet.
+- MCQ: put the options in A-F (at least two; leave the rest empty).
+  Answer = the letter of the correct option (e.g. B), or its exact text.
+- True/False: leave A-F empty. Answer = True or False.
+- Short answer: leave A-F empty. Students type their answer.
+  Answer = every answer you accept, separated by ;   e.g.  carbon dioxide; CO2
+  Capitals, extra spaces and a full stop at the end don't matter,
+  and 14 matches 14.0 — but spelling does.
+- Word cloud: leave A-F and Answer empty. Students type a word or short
+  phrase; the projector shows all answers as a cloud (most common = biggest).
+  Not scored. Good for "one word that describes..." questions.
+- Explanation: optional, shown to students after you reveal the answer.
+- A sheet named "Instructions", or starting with _ , is ignored.
+
+Two ways to use your file:
+  a) Edit questions.xlsx next to the app, save, then click
+     "Reload questions.xlsx" on the start page (or restart the app).
+  b) Click "Load an Excel file..." on the start page and pick any .xlsx.
+
+If a row has a mistake, the start page lists it (sheet name and row number)
+and skips just that question. A picture that isn't in the images folder is
+listed too; that question is shown without it. "Download template" gives a
+blank example. Pictures are read from the images folder whichever way you
+load the Excel file.
+
+
+3. IN CLASS
+-----------
+1. Start page -> "Start a new session".
+2. Click "Open projector display" and put that window on the projector.
+   It shows a QR code.
+3. Students connect their phones to the SAME WiFi as your laptop and scan it.
+4. On your teacher page, pick a quiz. For each question:
+   wait for answers -> "Reveal answer" -> "Next question".
+5. At the end students see their score; the projector shows the class chart.
+
+TYPED ANSWERS (Short answer / Word cloud): the teacher page shows
+"Answers so far" — click it to see what students typed, before revealing.
+It starts closed, so nothing shows if your laptop screen is mirrored.
+  - Hide: keeps an answer off the projector (e.g. a silly word).
+  - Accept (Short answer only, before you reveal): counts a near-miss such
+    as a spelling slip as correct for everyone who typed it.
+
+LEAGUE (TOP 10): every student gets a random 3-digit number (e.g. #427) shown
+on their phone — no names are collected. After each reveal and at the end,
+the projector and phones show the top 10: most correct answers first, ties
+won by whoever answered correctly faster. Arrows show who moved up or down,
+and each student also sees their own rank (e.g. "Rank 14 of 40").
+Word clouds don't count, so a quiz of 10 questions with 2 word clouds is
+scored out of 8.
+
+
+4. PHONES CAN'T CONNECT?
+------------------------
+- Check "Students connect via" on the teacher page. If your laptop has
+  several networks, pick the WiFi (or hotspot) the phones are on.
+- Some college WiFi blocks phones from reaching laptops. Turn on your
+  laptop's Mobile Hotspot (Settings -> Network -> Mobile hotspot), have
+  students join it, and pick the hotspot address (often 192.168.137.1)
+  under "Students connect via".
+- Make sure the firewall prompt was allowed for Private networks, and that
+  your WiFi is set to Private, not Public.
+
+
+Only the laptop running the app can load questions or control the quiz;
+students on the WiFi can only join and answer.
